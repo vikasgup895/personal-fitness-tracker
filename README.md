@@ -2,7 +2,7 @@
 
 ---
 
-# **AI-Powered Personal Fitness Tracker** 🏋️‍♂️💡  
+# **AI-Powered Personal Fitness Tracker** 🏋️‍♂️
 
 ### **Overview**  
 The **AI-Powered Personal Fitness Tracker** is a **Streamlit-based web application** designed to help users monitor their health and fitness. It calculates **BMI, estimates calorie expenditure**, and provides **personalized workout and diet recommendations** based on user input.  
