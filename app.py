@@ -35,8 +35,8 @@ page_bg_img = f'''
 st.markdown(page_bg_img, unsafe_allow_html=True)
 
 # Load fitness dataset
-dataset_path = r"C:\Users\vyshnavi\OneDrive\Desktop\AICTE INTERNSHIP\dataset-2.csv"
-diet_chart_path = r"C:\Users\vyshnavi\OneDrive\Desktop\AICTE INTERNSHIP\diet_dataset_2.csv"
+dataset_path = "dataset-2.csv"
+diet_chart_path = "diet_dataset_2.csv"
 try:
     df = pd.read_csv(dataset_path)
     diet_df = pd.read_csv(diet_chart_path)
