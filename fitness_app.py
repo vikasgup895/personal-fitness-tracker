@@ -8,7 +8,7 @@ def get_base64_of_image(image_path):
         return base64.b64encode(img_file.read()).decode()
 
 # Provide correct local path of the image
-image_path = r"C:\Users\vyshnavi\OneDrive\Desktop\AICTE INTERNSHIP\fitness_2.webp"  # Ensure this file is in the same directory or provide a full path
+image_path = "fitness_2.webp"  # Ensure this file is in the same directory or provide a full path
 base64_image = get_base64_of_image(image_path)
 
 # Custom CSS for Background Image & Styling
@@ -35,8 +35,8 @@ page_bg_img = f'''
 st.markdown(page_bg_img, unsafe_allow_html=True)
 
 # Load fitness dataset
-dataset_path = r"C:\Users\vyshnavi\OneDrive\Desktop\AICTE INTERNSHIP\dataset-2.csv"
-diet_chart_path = r"C:\Users\vyshnavi\OneDrive\Desktop\AICTE INTERNSHIP\diet_dataset_2.csv"
+dataset_path = "dataset-2.csv"
+diet_chart_path = "diet_dataset_2.csv"
 try:
     df = pd.read_csv(dataset_path)
     diet_df = pd.read_csv(diet_chart_path)
