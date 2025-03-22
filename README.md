@@ -34,11 +34,11 @@ Make sure you have **Python 3.7+** installed.
    ```
 2. Install required dependencies:
    ```sh
-   pip install -r requirements.txt
+   pip install numpy pandas matplotlib streamlit seaborn
    ```
 3. Run the Streamlit app:
    ```sh
-   streamlit run app.py
+   streamlit run fitness_app.py
    ```
 4. Open your browser and go to `http://localhost:8501/`.
 
